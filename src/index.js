@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class meInReact extends React.Component {
+class MeInReact extends React.Component {
   render () {
     return (
       <div className="me">
@@ -20,8 +20,8 @@ class meInReact extends React.Component {
 }
 // IMPORTANT!!!! uncomment the lines below to make your tests work
 ReactDOM.render(
-  <meInReact/>,
+  <MeInReact/>,
   document.getElementById('global')
 );
 
-export default meInReact
+export default MeInReact
