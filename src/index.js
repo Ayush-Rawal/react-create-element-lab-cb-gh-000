@@ -20,7 +20,7 @@ class meInReact extends React.Component {
 }
 // IMPORTANT!!!! uncomment the lines below to make your tests work
 ReactDOM.render(
-  meInReact,
+  <meInReact/>,
   document.getElementById('global')
 );
 
